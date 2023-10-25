@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.total-container{
+    /* border: 2px solid; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: linear-gradient(#000,#000);
+}
+.main-container{
+    /* border: 2px solid white; */
+    height:60vh;
+    display: flex;
+    justify-content: center;
+    margin-top:1%;
+    /* align-items:center; */
+   
+}
+.outer-circle{
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#fff,#fff);
+    box-shadow: 0 0 50px #9B59B6;
+}
+.inner-circle{
+    height: 280px;
+    width: 280px;
+    border: 2px solid ;
+    border-radius: 100%;
+    background-image: linear-gradient(#000,#000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 100px #FF69B4;
+}
+.time{
+    color: #fff;
+    /* border: 2px solid white; */
+    font-size: 30px;
+}
+.btn-container{
+    /* border: 2px solid white; */
+    height: 100px;
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:3%;
+   
+}
+.button{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    padding: 1%;
+    color: #ffff;
+    border: 3px solid;
+    border-color: gray;
+    background-color: #000;
+    margin-right: 6%;
+}
+
+
+.button:hover{
+    box-shadow: 0 0 50px #FF69B4; 
+    background-color: #fff;
+    color: #000;
+}
+.table-item{
+    /* border: 2px solid red; */
+    height:400px;
+    width: 30%;
+    color: #fff;
+    margin-top: 40px;
+    list-style: none;
+    overflow: auto;
+    
+}
+.table-item::-webkit-scrollbar{
+    display: none;
+}
+.headelement{
+    /* border: 2px solid white; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.head-items{
+    /* border: 2px solid white; */
+    /* width: 50%; */
+    font-size: 20px;
+    padding: 1%;
+}
+.rows{
+    border: 1px solid gray;
+    border-radius:35px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.row-element{
+    /* border: 2px solid white; */
+    /* width: 50%; */
+    font-size: 20px;
+    padding: 10px;
+}
+.clear-all{
+    height:45px;
+    width: 120px;
+    border-radius: 20px;
+    border-color: white;
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+    opacity: 0.8;
+    transform: translate((-50%));
+}
+.hide{
+    display: none;
+}
