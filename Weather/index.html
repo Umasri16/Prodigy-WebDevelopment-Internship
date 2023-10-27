@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/cloudy_1163661.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" id="inp">
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass" ></i>
+            </button>
+        </div>
+ 
+    <div class="weather">
+            <!-- <i class="fa-solid fa-cloud fa-2xl weather-icon"></i> -->
+            <img src="./images/cloudy_1163661.png" alt="" class="weather-img">
+          <div class="details" id="temp-info">
+            <h3 class="temp " id="temp-info"><span id="temp">25</span><span id="unit" >&#176</span><sub id="c">C</sub></h3>
+            <p class="desc" id="desc">Cloudy</p>
+            <p class="city" id="city-name">Hyderabad</p>
+            <p id="hide-element" class="hide"></p>
+          </div>
+        </div>
+
+   </div>
+
+<script src="./weather.js"></script>
+</body>
+</html>
